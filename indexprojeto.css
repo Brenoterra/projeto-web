@@ -1,0 +1,484 @@
+/*------------------------------------------ barra de navegação -------------------------------------------------*/
+
+.flex{
+    display: flex;
+}
+.corpo{
+    overflow-x: hidden;
+    align-items: center;
+    display: flex;   
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.barraemenu{
+    display: flex;
+    justify-content: space-around ;
+    padding-left: 130px;
+    padding-right: 130px;
+    width: 1200px;
+    align-items: center;
+
+}
+.logo{
+    padding-top: 7px;
+    align-items: center;
+    padding-right: 200px;
+  
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.nav_direções{
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+   
+
+}
+
+.nav_style{
+
+    list-style: none;
+}
+
+.nav_ancoragem{
+   
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style: decimal;
+    color: #003366;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+
+.nav_style :active a,
+.nav_style :hover { 
+    color: #ffffff;
+    background-color: #003366;
+    border-radius: 15px;
+}
+
+/*------------------------------------------ barra de navegação -------------------------------------------------*/
+
+
+/*------------------------------------------ inicio da section 1 banner + intro----------------------------------*/
+
+.formatação_section_um{
+    align-items: center;
+    display: flex;   
+    flex-direction: column;
+    justify-content: center;
+
+    
+}
+
+
+.Primeiro_banner{
+    margin-top: 20px;
+    
+}
+
+.intro_secttion_um{
+    display: flex;
+    height: 370px;
+    width: 1200px;
+    align-items: center;
+    justify-content: space-around;
+    color: #003366;
+    margin-top: 30px;
+    
+}
+
+.intro_area_um{
+    height: 450px;
+    width: 580px;
+}
+
+
+
+.area_um_titulo{
+    height: 150px;
+    font: 35px 'calibri';
+
+}
+
+.intro_imagem_propridade{
+    height: 100%;
+    width: 100%;
+}
+
+.barra{
+    width: 580px;
+    height: 4px;
+    background-color: #f47f34;
+}
+
+.area_um_texto{
+    color: gray;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.intro_botao{
+   
+    background-color: #003366;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #ffffff ;
+    padding: 20px 60px 20px 60px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+/*------------------------------------------ fim da section 1 banner + intro----------------------------------*/
+
+/*------------------------------------------ inicio da section 2 ---------------------------------------------*/
+
+.menu_serviços{
+    display: flex;
+    height: 550px;
+    width: 1920px;
+    background-color: #003366;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;      
+    margin-bottom: 30px;
+}
+
+.menu_serviços a{
+    text-decoration: none;      
+}
+
+
+.serviço_expecifico{
+    width: 300px;
+    height: 450px;
+    border: solid 2px grey;
+    border-radius: 15px;
+    margin:50px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.serviço_expecifico img{
+    border-radius: 15px;
+
+}
+
+.serviço_descrição{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+.serviço_botao{
+    height: 60px;
+    width: 200px;
+    background-color: #f47f34;
+    border-radius: 15px;
+    margin-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #003366;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+/*------------------------------------------ fim da section 2 -------------------------------------------------*/
+
+/*------------------------------------------ inicio da arcticle 1 ---------------------------------------------*/
+
+.cadastro{
+    height: 550px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.barra_cadastro {
+    width: 1200px;
+    height: 4px;
+    background-color: #f47f34;
+
+
+
+}
+
+.titulo_cadastro{
+    height: 100px;
+    width: 1200px;
+    margin: 20px 0px 20px 0px;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: #003366;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+
+.ficha_cadastro{
+display: block;    
+justify-content: space-around;
+
+}
+
+.informaçãos_pessoais{
+    height: 250px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formatação_input_cadastro{
+    margin: 15px;
+    border-radius: 15px;
+    height: 200px;
+    border: none;
+    background-color: #ffab763a;
+    padding: 27px 0px 27px 15px;
+}
+
+.areademensagem{
+    display: flex;
+    height: 250px;
+    width: 592px;
+    margin: 21px 12px 21px 12px;
+    justify-content: center;
+
+}
+
+.mensagem_texto{
+    height: 250px;
+    width: 450px;
+
+}
+
+.botao_cadastro{
+    height: 60px;
+    width: 97%;
+    background-color: #f47f34;
+    margin: 30px 12px 30px 12px;
+    border-radius: 15px;
+    border: none;
+    color: #003366;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    
+
+
+}
+
+/*------------------------------------------ fin da arcticle 1 ---------------------------------------------*/
+
+/*------------------------------------------ inicio da footer 1 --------------------------------------------*/
+.localização{
+    height: 600px;
+    width: 1920px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+
+.rodape{
+    height: 305px;
+    width: 1920px;
+    background: #003366;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.rodape_areadeatendimento{
+    height: 250px;
+    width: 1920px;
+    border-bottom: 2px grey solid;
+    display: flex;
+    justify-content: center;
+}
+
+.rodape_areadeatendimento_formatação{
+    height:250px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+.logo_rodape{
+
+    height:auto;
+    width:  400px;
+    margin: 20px;
+    align-self: center;
+}
+
+.rodape_contatos{
+    height: auto;
+    width:  400px;
+    margin: 20px;
+    display: flex;
+    
+
+}
+
+.rodape_texto_contato{
+    align-self: center;
+    height: 30px;
+    width: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+    font-size: 25px;
+    border-right: 3px solid #ffffff;
+    text-align: center;
+    padding: 33px 0px 36px 0px;
+    margin-right: 20px;
+
+
+}
+
+.rodape_info_contato{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #ffffff;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 25px 0px 25px 0px;
+
+}
+
+.rodape_info_telefone{
+    height: 50px;
+    width: 253px;
+    align-items: center;
+    align-self: center;
+    display: flex;
+
+}
+
+.rodape_info_email{
+    height: 50px;
+    width: 253px;
+    align-items: center;
+    align-self: center;
+    display: flex;
+    
+}
+
+.rodape_info_localização{
+    height: 50px;
+    width: 253px;
+    align-items: center;
+    align-self: center;
+    display: flex;
+    
+}
+
+.rodape_atendimeto{
+    height: auto;
+    width: 400px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.atendimento_whatsapp{
+    width: 250px;
+    height: 45px;
+    background-color: #13c755;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+
+}
+
+.atendimento_whatsapp a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 5px;
+
+}
+
+
+.atendimento_mensagem{
+    width: 250px;
+    height: 45px;
+    background-color: #55cfee;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+
+}
+
+.atendimento_mensagem a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 5px;
+
+}
+
+.rodape_copyright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.logo_rodape_copyright{
+    width: 300px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
