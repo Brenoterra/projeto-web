@@ -1,9 +1,9 @@
-/*------------------------------------------ barra de navegação -------------------------------------------------*/
+/*------------------------------------------ barra de navegacao -------------------------------------------------*/
 
 .flex{
     display: flex;
 }
-.corpo{
+.main{
     overflow-x: hidden;
     align-items: center;
     display: flex;   
@@ -12,7 +12,7 @@
 
 }
 
-.barraemenu{
+.bar_menu{
     display: flex;
     justify-content: space-around ;
     padding-left: 130px;
@@ -21,7 +21,7 @@
     align-items: center;
 
 }
-.logo{
+.soon{
     padding-top: 7px;
     align-items: center;
     padding-right: 200px;
@@ -36,7 +36,7 @@
 
 }
 
-.nav_direções{
+.nav_directions{
     display: flex;
     padding-left: 15px;
     padding-right: 15px;
@@ -44,12 +44,12 @@
 
 }
 
-.nav_style{
+.nav_item{
 
     list-style: none;
 }
 
-.nav_ancoragem{
+.nav_docking{
    
     padding: 15px;
     text-decoration: none;
@@ -61,19 +61,19 @@
 }
 
 
-.nav_style :active a,
-.nav_style :hover { 
+.nav_item :active a,
+.nav_item :hover { 
     color: #ffffff;
     background-color: #003366;
     border-radius: 15px;
 }
 
-/*------------------------------------------ barra de navegação -------------------------------------------------*/
+/*------------------------------------------ barra de navegacao -------------------------------------------------*/
 
 
 /*------------------------------------------ inicio da section 1 banner + intro----------------------------------*/
 
-.formatação_section_um{
+.section_one_formatting{
     align-items: center;
     display: flex;   
     flex-direction: column;
@@ -83,12 +83,12 @@
 }
 
 
-.Primeiro_banner{
+.First_banner{
     margin-top: 20px;
     
 }
 
-.intro_secttion_um{
+.intro_section_one{
     display: flex;
     height: 370px;
     width: 1200px;
@@ -99,38 +99,38 @@
     
 }
 
-.intro_area_um{
+.intro_area_one{
     height: 450px;
     width: 580px;
 }
 
 
 
-.area_um_titulo{
+.area_one_title{
     height: 150px;
     font: 35px 'calibri';
 
 }
 
-.intro_imagem_propridade{
+.intro_image_property{
     height: 100%;
     width: 100%;
 }
 
-.barra{
+.bar{
     width: 580px;
     height: 4px;
     background-color: #f47f34;
 }
 
-.area_um_texto{
+.area_one_text{
     color: gray;
     font-size: 20px;
     margin-top: 10px;
     margin-bottom: 30px;
 }
 
-.intro_botao{
+.intro_button{
    
     background-color: #003366;
     border-radius: 10px;
@@ -149,7 +149,7 @@
 
 /*------------------------------------------ inicio da section 2 ---------------------------------------------*/
 
-.menu_serviços{
+.menu_services{
     display: flex;
     height: 550px;
     width: 1920px;
@@ -161,12 +161,12 @@
     margin-bottom: 30px;
 }
 
-.menu_serviços a{
+.menu_services a{
     text-decoration: none;      
 }
 
 
-.serviço_expecifico{
+.specific_service{
     width: 300px;
     height: 450px;
     border: solid 2px grey;
@@ -179,12 +179,12 @@
 
 }
 
-.serviço_expecifico img{
+.specific_service img{
     border-radius: 15px;
 
 }
 
-.serviço_descrição{
+.service_description{
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -193,7 +193,7 @@
 
 }
 
-.serviço_botao{
+.service_button{
     height: 60px;
     width: 200px;
     background-color: #f47f34;
@@ -214,7 +214,7 @@
 
 /*------------------------------------------ inicio da arcticle 1 ---------------------------------------------*/
 
-.cadastro{
+.register{
     height: 550px;
     width: 1200px;
     display: flex;
@@ -223,7 +223,7 @@
 
 }
 
-.barra_cadastro {
+.registration_bar {
     width: 1200px;
     height: 4px;
     background-color: #f47f34;
@@ -232,7 +232,7 @@
 
 }
 
-.titulo_cadastro{
+.registration_title{
     height: 100px;
     width: 1200px;
     margin: 20px 0px 20px 0px;
@@ -245,20 +245,20 @@
 }
 
 
-.ficha_cadastro{
+.registration_form{
 display: block;    
 justify-content: space-around;
 
 }
 
-.informaçãos_pessoais{
+.personal_information{
     height: 250px;
     width: 600px;
     display: flex;
     flex-direction: column;
 }
 
-.formatação_input_cadastro{
+.registration_input_formatting{
     margin: 15px;
     border-radius: 15px;
     height: 200px;
@@ -267,7 +267,7 @@ justify-content: space-around;
     padding: 27px 0px 27px 15px;
 }
 
-.areademensagem{
+.message_area{
     display: flex;
     height: 250px;
     width: 592px;
@@ -276,13 +276,13 @@ justify-content: space-around;
 
 }
 
-.mensagem_texto{
+.text_message{
     height: 250px;
     width: 450px;
 
 }
 
-.botao_cadastro{
+.registration_button{
     height: 60px;
     width: 97%;
     background-color: #f47f34;
@@ -301,7 +301,7 @@ justify-content: space-around;
 /*------------------------------------------ fin da arcticle 1 ---------------------------------------------*/
 
 /*------------------------------------------ inicio da footer 1 --------------------------------------------*/
-.localização{
+.location{
     height: 600px;
     width: 1920px;
     display: flex;
@@ -309,7 +309,7 @@ justify-content: space-around;
 }
 
 
-.rodape{
+.baseboard{
     height: 305px;
     width: 1920px;
     background: #003366;
@@ -318,7 +318,7 @@ justify-content: space-around;
 
 }
 
-.rodape_areadeatendimento{
+.service_area_footer{
     height: 250px;
     width: 1920px;
     border-bottom: 2px grey solid;
@@ -326,7 +326,7 @@ justify-content: space-around;
     justify-content: center;
 }
 
-.rodape_areadeatendimento_formatação{
+.footer_service_area_formatting{
     height:250px;
     width: 1200px;
     display: flex;
@@ -335,7 +335,7 @@ justify-content: space-around;
     
 }
 
-.logo_rodape{
+.footer_logo{
 
     height:auto;
     width:  400px;
@@ -343,7 +343,7 @@ justify-content: space-around;
     align-self: center;
 }
 
-.rodape_contatos{
+.footer_contacts{
     height: auto;
     width:  400px;
     margin: 20px;
@@ -352,7 +352,7 @@ justify-content: space-around;
 
 }
 
-.rodape_texto_contato{
+.footer_text_contact{
     align-self: center;
     height: 30px;
     width: 100px;
@@ -367,7 +367,7 @@ justify-content: space-around;
 
 }
 
-.rodape_info_contato{
+.footer_contact_info{
     height: auto;
     display: flex;
     flex-direction: column;
@@ -379,7 +379,7 @@ justify-content: space-around;
 
 }
 
-.rodape_info_telefone{
+.footer_info_phone{
     height: 50px;
     width: 253px;
     align-items: center;
@@ -388,16 +388,7 @@ justify-content: space-around;
 
 }
 
-.rodape_info_email{
-    height: 50px;
-    width: 253px;
-    align-items: center;
-    align-self: center;
-    display: flex;
-    
-}
-
-.rodape_info_localização{
+.footer_info_email{
     height: 50px;
     width: 253px;
     align-items: center;
@@ -406,7 +397,16 @@ justify-content: space-around;
     
 }
 
-.rodape_atendimeto{
+.footer_going_location{
+    height: 50px;
+    width: 253px;
+    align-items: center;
+    align-self: center;
+    display: flex;
+    
+}
+
+.footer_service{
     height: auto;
     width: 400px;
     margin: 20px;
@@ -417,7 +417,7 @@ justify-content: space-around;
 
 }
 
-.atendimento_whatsapp{
+.whatsapp_support{
     width: 250px;
     height: 45px;
     background-color: #13c755;
@@ -427,7 +427,7 @@ justify-content: space-around;
 
 }
 
-.atendimento_whatsapp a{
+.whatsapp_support a{
     color: #ffffff;
     text-decoration: none;
     font-size: 17px;
@@ -439,7 +439,7 @@ justify-content: space-around;
 }
 
 
-.atendimento_mensagem{
+.message_service{
     width: 250px;
     height: 45px;
     background-color: #55cfee;
@@ -450,7 +450,7 @@ justify-content: space-around;
 
 }
 
-.atendimento_mensagem a{
+.message_service a{
     color: #ffffff;
     text-decoration: none;
     font-size: 17px;
@@ -462,7 +462,7 @@ justify-content: space-around;
 
 }
 
-.rodape_copyright{
+.footer_copyright{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -472,7 +472,7 @@ justify-content: space-around;
 
 }
 
-.logo_rodape_copyright{
+.logo_footer_copyright{
     width: 300px;
     align-items: center;
     display: flex;
